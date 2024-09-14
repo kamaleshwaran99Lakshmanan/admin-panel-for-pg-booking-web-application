@@ -1,0 +1,383 @@
+*,*::after,*::before,*:focus{
+  box-sizing: border-box;
+  outline: none!important;
+  box-shadow:none!important;
+  border-color: #ced4da;
+}
+/* global.css or App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  background-color:#d5b6ec;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.edit-form{
+margin: 0 auto;
+width: 90%;
+}
+
+.custom-overline {
+  width: 10%; /* Adjust this to change the overline width */
+  height: 5px; /* Thickness of the overline */
+  background-color: rgb(121, 77, 141); /* Color of the overline */
+  border-radius: 10px;
+}
+
+
+.outlet{
+  background-color:  #d5b6ec;
+  height: 100vh;
+  position: relative;
+}
+
+input{
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 25px!important;
+}
+
+.container-fluid{
+  padding: 0!important;
+}
+
+.dashboard-table{
+  position: relative;
+  bottom: 30%;
+}
+
+.down-content{
+  height: 100vh;
+  background-color: white!important;
+  overflow: hidden; /* Ensure that content stays within rounded corners */
+}
+
+button:focus{
+ outline:none!important;
+ box-shadow: none;
+ border-color: #ced4da;
+}
+
+i:focus{
+  outline:none!important;
+  box-shadow: none!important;
+  border-color: #ced4da;
+}
+
+input:focus, .form-control:focus {
+  outline: none;
+  box-shadow: none; /* Removes the blue shadow */
+
+  border-color: #ced4da; /* Default border color or change it as needed */
+}
+
+.tab {
+  width: 100%;
+  background-color: rgba(22, 21, 21, 0.819);
+  border-collapse:collapse;
+  border-spacing: 0; /* Remove default spacing */
+}
+ td {
+  border: 2px solid rgba(20, 18, 18, 0.855);
+}
+
+tr{
+  border: 2px solid black;
+}
+
+ th {
+  border: 2px solid rgba(24, 23, 23, 0.903);
+  background-color: #a89eaf!important;
+  color: white!important;
+  text-align: left;
+}
+
+.table-responsive{
+  position: relative!important;
+  bottom: 50%!important;
+
+}
+
+h1{
+  font-weight:lighter;
+}
+
+.row .input-group{
+  margin-bottom: 50%;
+}
+
+.input-group{
+  height:0;
+  background-color: #d5b6ec;
+}
+
+.input-group-text{
+  background-color: #d5b6ec;
+  border: none;
+  color: white;
+  border-radius: 50px;
+}
+
+.w-100 h4{
+  color: #a239ec;
+}
+
+.cb{
+  height: 15px!important;
+  width:  15px!important;
+  margin: auto;
+}
+
+.table-head,.table-head h1{
+  background-color: white;
+  color: black !important;
+}
+
+.table-header{
+  position: relative;
+  top:10%;
+  background-color: white;
+  color: black !important;
+  border: 1px solid grey !important; 
+}
+
+.main-content{
+  background-color: #d5b6ec!important;
+  height: 100vh!important;
+}
+
+
+/* General smooth transition */
+.side-menu button{
+  border: none;
+}
+
+.dashboard{
+  background-color: #d498ff1a;
+}
+
+.accordion-body{
+  padding: 0!important;
+}
+
+.navbar-brand{
+ border-left: 9px solid #a239ec;  
+ color: #a239ec!important;
+}
+
+.side-menu{
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  background-color: rgba(235, 201, 247, 0.288)!important;
+}
+
+.header{
+  position: relative;
+  box-shadow: 0 4px 6px rgba(198, 107, 255, 0.3), 0 6px 3px rgba(172, 72, 254, 0.262);
+  z-index: 1;
+  background-color: white!important;
+}
+
+.accordion-button::after{
+  color: #a239ec !important;
+}
+
+.side-menu button {
+  color: #a239ec !important;
+}
+.side-menu {
+  width: 12rem !important;
+  transition: width 0.3s linear; /* Apply transition to the width property */
+}
+
+/* Custom dropdown animation */
+/* Smooth transition for height and opacity */
+.menu {
+  overflow: hidden;
+  width: 0;
+  transition: height 0.4s ease, opacity 0.4s ease;
+  height: 0;
+  opacity: 0;
+}
+
+.menu.open {
+  text-align: left;
+  margin-top: 20px;
+  box-shadow: rgba(71, 71, 71, 0.389) 0px 4px 6px -1px, rgba(71, 71, 71, 0.1) 0px 2px 4px -1px; /* Apply shadow */
+  width: 150px;
+  height: auto; /* Allow the menu to expand naturally */
+  opacity: 1;
+}
+
+.link{
+  margin: 10px 0!important;
+}
+
+.link a{
+  padding-left: 15px!important;
+  font-size:medium;
+}
+
+.drop{
+  background-color: #a239ec!important;
+  border-radius:20px; 
+  border: 1px solid #a239ec!important;
+}
+
+/* Transition for links inside the dropdown */
+ a {
+  text-align: left;
+  margin: 20px 0!important;
+  overflow: hidden;
+  color: black;
+  border-left: 0 solid transparent;
+  padding-left: 15px;
+  transition: color 0.1s ease, padding-left 0.3s ease-in-out, border-left 0.2s ease-in-out;
+}
+
+.circle{
+  position: relative;
+  top: 100%,!important;
+  height: 13px;
+  width: 13px;
+  background-color: green!important;
+  
+}
+
+.submit .btn{
+  background-color: #5f5467!important;
+  color: white;
+}
+
+ a:hover {
+  border-left: 6px solid #a239ec;
+  background-color: transparent !important;
+  color: #a239ec!important;
+  padding-left: 19px!important;
+}
+
+.side-menu.collapsed {
+  width: 3rem !important;
+}
+
+.side-menu.collapsed .navigation{
+  display: none;
+}
+
+/* Hide content when side menu is collapsed */
+.side-menu .d-none {
+  display: none;
+}
+
+/* Center icons and adjust font size */
+.icons-only {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.side-menu .btn {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.Accordion.Header button {
+  width: 100% !important;
+}
+
+button {
+  height: 45px !important;
+  width: 100% !important;
+}
+
+input {
+  background-color: #d5b6ec !important;
+  width: 90%!important ;
+  height: 52px !important;
+  border: none!important;
+}
+
+.submit .btn{
+  width:90px!important;
+}
+
+.submit button{
+  height: 52px!important;
+}
+
+.img {
+  background-image: url('./Images/OuterImage.png') !important;
+  background-position: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#overline {
+  text-decoration: overline;
+  text-decoration-color: #6b00b6;
+  text-decoration-thickness: 4px;
+}
+
+
+.module-header{
+  position: relative;
+  top:5%;
+  background-color: white;
+}
+
+.form{
+  height: 100vh!important;
+  width: 90%!important;
+}
+
+h1{
+  color:#767476
+}
+
+.form h2{
+  text-decoration: overline;
+  color: #a239ec;
+}
+
+.form-content{
+  background-color: #d5b6ec;
+}
+
+ form{
+  width: 100% ;
+  height: 65vh;
+  position: relative;
+  top:14%;
+  background-color: white!important;
+  padding: 30px;
+}
+
+#pages{
+  border: 2px solid #a675c9!important;
+  border-radius: 5px;
+  outline: none;
+}
+
+.icons{
+  color: yellow;
+}
+
+.red-text {
+  color: red!important;
+}
+
+.cb  tr input::after{
+  background-color: red!important;
+}
